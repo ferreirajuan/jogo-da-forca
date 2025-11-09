@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jogo da Forca</title>
+        <link rel="stylesheet" href="style.css">
+        <script defer src="script.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div></div>
+            <h1>Frutas</h1>
+            <button id="pause-button" type="button">
+                <img src="./assets/icons/pause.svg" alt="Ícone de pause">
+            </button>
+        </header>
+        <div id="pause-modal" class="pause-modal hidden">
+            <div class="modal-overlay"></div>
+            <div class="modal-content">
+                <div class="close-container">
+                    <button id="close-button" type="button">
+                        <img src="./assets/icons/close.svg" alt="Ícone de fechar">
+                    </button>
+                </div>
+                <p>Reiniciar</p>
+                <img src="./assets/icons/restart.svg" alt="Ícone de reiniciar">
+            </div>
+        </div>
+        <main>
+            <section class="gibbet-section">
+                <img src="/assets/elements/gibbet.svg" alt="Imagem da forca">
+                 <img id="boneco" src="" alt="Boneco da forca">
+                <div class="word-container">
+                    
+                </div>
+            </section>
+            <section class="letters-section">
+                
+            </section>
+        </main>
+    </body>
+</html>

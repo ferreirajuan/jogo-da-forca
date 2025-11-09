@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-size: 10px;
+    font-weight: 400;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Jaro', sans-serif;
+    box-sizing: border-box;
+}
+
+.hidden {
+    display: none;
+}
+
+header {
+    padding: 4rem 12.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-family: Jaro;
+    font-weight: 400;
+    font-size: 7.2rem;
+    line-height: 9rem;
+    text-align: center;
+}
+
+header button {
+    background-color: transparent;
+}
+
+
+.modal-overlay {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #00000072;
+}
+
+.modal-content {
+    position: absolute;
+    z-index: 6;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: .8rem solid #000;
+    padding-bottom: 4rem;
+    width: 85%;
+    max-width: 43.3rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-content .close-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modal-content .close-container button {
+    background-color: #E1D9D9;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.modal-content p {
+    margin-bottom: .8rem;
+    font-family: Jaro;
+    font-weight: 400;
+    font-size: 7.2rem;
+    line-height: 9rem;
+    text-align: center;
+
+}
+
+.modal-content .close-container button:hover {
+    background-color: #E26666;
+}
+
+main {
+    margin-top: 2rem;
+    padding: 0 12.2rem 30rem 12.2rem;
+}
+
+.gibbet-section {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  gap: 7.5rem;
+}
+
+.gibbet-section img:first-child {
+  width: 20rem;
+  height: auto;
+}
+
+.word-container {
+    display: flex;
+    gap: .8rem;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.word-container .letter-from-word {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .8rem
+}
+
+.word-container .letter-from-word span {
+    font-size: 6.8rem;
+}
+
+.word-container .letter-from-word div {
+    width: 7.2rem;
+    height: 1.1rem;
+    background-color: #000;
+}
+
+.letters-section {
+    display: flex;
+    gap: .8rem;
+    margin-top: 6rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.letters-section button {
+  padding: .5rem 1.5rem .3rem 1.5rem;
+  font-size: 6.8rem;
+  border: .8rem solid #000;
+  background-color: transparent;
+  cursor: pointer;
+  font-family: 'Jaro', sans-serif;
+}
+
+.letters-section button:hover {
+  background-color: #E1D9D9;
+}
+
+.letters-section button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+#boneco {
+  display: none; /* começa escondido */
+  position: absolute;
+  left: 13.65rem;
+}
