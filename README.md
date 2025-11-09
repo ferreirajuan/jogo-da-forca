@@ -53,25 +53,25 @@ O projeto está funcional, mas ainda possui pontos a serem melhorados:
 
 ## 📁 Estrutura de pastas
 
-/assets
-├── icons/
-│ ├── pause.svg
-│ ├── close.svg
-│ └── restart.svg
+/assets  <br>
+├── icons/ <br>
+│ ├── pause.svg <br>
+│ ├── close.svg <br>
+│ └── restart.svg <br>
 │
-└── elements/
-├── gibbet.svg
-├── hangman-1.svg
-├── hangman-2.svg
-├── hangman-3.svg
-├── hangman-4.svg
-├── hangman-5.svg
-├── hangman-6.svg
-└── hangman-7.svg
+└── elements/ <br>
+├── gibbet.svg <br>
+├── hangman-1.svg <br>
+├── hangman-2.svg <br>
+├── hangman-3.svg <br>
+├── hangman-4.svg <br>
+├── hangman-5.svg <br>
+├── hangman-6.svg <br>
+└── hangman-7.svg <br>
 
-index.html
-style.css
-script.js
+index.html <br>
+style.css <br>
+script.js <br>
 
 ---
 
